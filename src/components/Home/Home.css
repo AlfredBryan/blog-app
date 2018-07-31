@@ -1,0 +1,354 @@
+html {
+    background: #eef1f8;
+}
+.main {
+    background-image: url("./Images/image-160116545.jpg");
+    background-size : cover;
+    width: 100%;
+    height: 100vh;
+}
+.heading {
+    position: absolute;
+    color: white;
+    top: 38%;
+    left: 10%;
+
+}
+.heading h5{
+    color: #41d46d;
+    font-weight: 900;
+}
+.heading h1{
+    margin-top: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 40px
+}
+.heading p {
+    font-weight: 200;
+}
+.heading button {
+    background-color:  #41d46d;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.main-btn {
+    position: absolute;
+    left: 78%;
+    margin-top: 10px;
+}
+.signup-btn {
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #41d46d;
+    border: none;
+    color: white;
+}
+.login-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(46, 109, 204);
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.trend{
+    display: flex;
+}
+.trend button {
+  margin-left: 750px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  width: 150px;
+  height: 30px;
+  background-color:  #41d46d;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.trend h5 {
+    margin-top: 55px;
+    margin-left: 135px;
+}
+.trend-story {
+    display: flex;
+    margin-top: 70px;
+}
+.story1 {
+    margin-left: 120px;
+    display: inline-block;
+    background: #fff;
+    text-align: center;
+    color: grey;
+    font-family: 'Abel', sans-serif;
+    line-height: 20px;
+    font-size: 20px
+}
+.story2{
+  margin-left: 40px;
+  display: inline-block;
+  background: #fff;
+  color: grey;
+  font-family: 'Abel', sans-serif;
+  line-height: 20px;
+  font-size: 20px
+}
+.story3{
+    margin-left: 40px;
+    display: inline-block;
+    background: #fff;
+    color: grey;
+    font-family: 'Abel', sans-serif;
+    line-height: 20px;
+    font-size: 20px
+}
+.bio img{
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.bio {
+    display: flex;
+}
+.bio-h4 {
+    text-align: left;
+    margin-left: 14px;
+    line-height: 5px;
+    margin-top: 12px;
+}
+.bio-h4 h4{
+    color: #41d46d;
+    font-size: 14px;
+    font-weight: 900;
+}
+.bio-h4 p {
+    font-size: 10px;
+    font-weight: 900;
+    font-weight: bold; 
+}
+.adjust1 {
+    margin-left: 30px;
+}
+.medium {
+    margin-top: 100px;
+    background-color: rgb(233, 231, 231);
+    display: flex;
+}
+.medium-write {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.medium-write h5 {
+    color: #41d46d;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+}
+.medium-write h1 {
+    font-weight: 100;
+    margin-top: 40px;
+    font-family: 'Abel', sans-serif;
+}
+.medium-write p {
+    color: grey;
+    font-weight: 100;
+    font-family: 'Abel', sans-serif;
+    line-height: 25px;
+    margin-top: 50px
+
+}
+.medium-write button {
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #41d46d;
+    font-weight: 500;
+    margin-top: 55px;
+}
+.published {
+    display: flex;
+}
+
+.published button {
+    margin-left: 750px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    background-color:  #41d46d;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .published h5 {
+      margin-top: 55px;
+      margin-left: 135px;
+  }
+  .pub-first {
+      display: flex;
+      margin-top: 40px;
+  }
+  .pub-second {
+    display: flex;
+    margin-top: 25px;
+}
+.pub-third {
+    display: flex;
+    margin-top: 25px;
+}
+  .pub-image {
+      margin-left: 100px;
+  }
+  .pub-blog {
+    display: inline-block;
+    background: #fff;
+    height: 210px;
+    width: 380px;
+  }
+
+.blog {
+    display: flex;
+    margin-left: 30px
+}
+.blog-h4 {
+    text-align: left;
+    margin-left: 14px;
+    line-height: 5px;
+}
+.blog-h4 h4{
+    color: #41d46d;
+    font-size: 14px;
+    font-weight: 900;
+}
+.blog-h4 span {
+    color: gray;
+    font-size: 12px;
+}
+.blog-h4 p {
+    font-size: 10px;
+    font-weight: bold; 
+    color: gray;
+}
+.blog img{
+    border-radius: 100px;
+    margin-top: 8px;
+}
+.pub-blog h5{
+   margin-left: 30px;
+   font-weight: 100;
+   font-size: 15px;
+   color: gray;
+}
+.pub-blog h2 {
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 30px;
+    color: gray;
+}
+.info {
+    margin-left: 40px;
+    height: 210px;
+    color: gray;
+}
+.info p {
+    font-size: 11px;
+    color: gray;
+
+}
+.info h4 {
+    color: #41d46d;
+    font-size: 12px;
+    font-weight: 900;
+}
+.info  span {
+    color: gray;
+}
+.write-story {
+    width: 100%;
+    margin-top: 100px;
+    height: 200px;
+    background-color: #41d46d;
+    display: flex;
+    align-items: center;
+}
+.write-story button {
+    width: 120px;
+    height: 35px;
+    margin-left: 200px;
+    color: #41d46d;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.write-story h1 {
+    margin-left: 270px;
+    font-size: 55px;
+    font-weight: 100;
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer {
+    margin-top: 100px;
+    height: 150px;
+    display: flex;
+}
+.footer p{
+    margin-top: 80px;
+    color: gray;
+}
+.p-about {
+  margin-left: 200px;
+  font-size: 13px;
+}
+.p-help {
+    margin-left: 30px;
+    font-size: 13px;
+    
+}
+.p-career {
+    margin-left: 30px;
+    font-size: 13px;
+}
+.p-publish {
+    margin-left: 30px;
+    font-size: 13px;
+}
+.p-brand {
+    margin-left: 30px;
+    font-size: 13px;
+}
+.p-blog {
+    margin-left: 30px; 
+    font-size: 13px;
+}
+.p-develope {
+    margin-left: 30px;
+    font-size: 13px;
+}
+.p-privacy {
+    margin-left: 380px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.p-terms {
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 100; 
+}
+button:hover {
+    cursor: pointer;
+}

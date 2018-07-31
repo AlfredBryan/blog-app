@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.card2 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #1abc9c;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0.8rem;
+}
+.main1 h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.card2 > form{
+    display: flex;
+    flex-direction: column;
+}
+.no1 {
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-bottom: 2rem;
+    height: 30px;
+    width: 16rem;
+    border: 1px solid grey
+}
+
+.no2{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-bottom: 2rem;
+    height: 30px;
+    width: 16rem;
+    border: 1px solid grey;
+
+}
+.no3{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-bottom: 2rem;
+    height: 30px;
+    width: 16rem;
+    border: 1px solid grey;
+}
+.no4{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-bottom: 2rem;
+    height: 30px;
+    width: 16rem;
+    border: 1px solid grey;
+}
+.no5{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-bottom: 2rem;
+    width: 16rem;
+}
+.no6{
+    font-family: 'Raleway', sans-serif;
+    height: 35px;
+    color: #fff;
+    background-color: #1abc9c;
+    border: none;
+    letter-spacing: 0.2rem;
+    transition: 0.3s opacity ease;
+    cursor: pointer;
+}
+.no6:hover{
+   opacity: 0.6;
+}
+.spinner{margin-left: 100px;
+
+}
