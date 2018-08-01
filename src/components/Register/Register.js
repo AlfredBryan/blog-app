@@ -34,7 +34,7 @@ class Register extends Component {
             .post('https://bionic-social.herokuapp.com/api/users/register')
             .send({ username: this.state.username, email: this.state.email, password: this.state.password })
             .end((error, response) => {
-                if (response === true ) {
+                if (response.ok) {
                     this.setState({ registered: true })
                     localStorage.setItem('token', response.body.token)
                 } else {

@@ -36,7 +36,7 @@ class Login extends Component {
             .set('Accept', 'application/json')
             .send({ username_or_email: this.state.email.trim(), password: this.state.password.trim() })
             .end((error, response) => {
-                if (response.status === 200) {
+                if (response.ok) {
                     this.setState({ loggedIn: true })
                     localStorage.setItem('token', response.body.token)
                 } else {

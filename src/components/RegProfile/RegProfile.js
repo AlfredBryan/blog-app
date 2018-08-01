@@ -4,7 +4,7 @@ import './RegProfile.css';
 import Spinner from '../../Spinner/Spinner';
 import Profile from './Profile';
 
-const token = localStorage.getItem('token')
+
 
 class RegProfile extends Component {
     constructor() {
@@ -49,16 +49,17 @@ class RegProfile extends Component {
 
     createProfile = (e) => {
         e.preventDefault();
+        let token = localStorage.getItem('token')
         superagent
             .post('https://bionic-social.herokuapp.com/api/users/profile/')
+            .set('Content-Type', 'application/json')
+            .set('Authorization', `Bearer ${token}`)
             .send({
                 first_name: this.state.first_name,
                 last_name: this.state.last_name,
                 bio: this.state.bio,
                 date_of_birth: this.state.date_of_birth
             })
-            .set('Accept', 'application/json')
-            .set('Authorization', `Bearer ${token}`)
             .end((error, response) => {
                 if (response) {
                     this.setState({ profile: response, loading: false,})
